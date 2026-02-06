@@ -98,10 +98,9 @@ http://localhost:3000
 
 
 📸 Screenshots
-![Tela inicial](<img width="1345" height="595" alt="image" src="https://github.com/user-attachments/assets/5db50020-fcfe-4c23-a81b-e67eda477198" />
-)
-![Cadastro de material](<img width="1108" height="420" alt="image" src="https://github.com/user-attachments/assets/9105d1b0-8268-46bd-af9a-a522de6ab78a" />
-)
+![Tela inicial]![tela inicial](https://github.com/user-attachments/assets/6711fb69-3243-4250-91b9-d5f2691dd196)
+
+![Cadastro de material]![Editar](https://github.com/user-attachments/assets/cb82532a-c1c3-4982-baeb-8444fabe4f4e)
 
 
 🎯 Objetivos do projeto:
