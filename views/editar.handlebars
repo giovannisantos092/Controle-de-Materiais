@@ -1,0 +1,10 @@
+<h1>Editar material</h1>
+
+<form action="/materiais/editar/{{material.id}}" method="POST">
+  <input type="text" name="produto" value="{{material.produto}}" required>
+  <input type="number" name="quantidade" value="{{material.quantidade}}" required>
+  <input type="text" name="destino" value="{{material.destino}}">
+  <button type="submit">Salvar alterações</button>
+</form>
+
+<a href="/">Voltar</a>

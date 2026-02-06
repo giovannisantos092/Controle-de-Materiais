@@ -1,0 +1,40 @@
+<h1>Saída de Materiais (conexões)</h1>
+
+<form action="/materiais" method="POST" class="form">
+  <input type="text" name="produto" placeholder="Produto" required>
+  <input type="number" name="quantidade" placeholder="Quantidade" required>
+  <input type="text" name="destino" placeholder="Destino">
+  <button type="submit">Salvar</button>
+</form>
+
+<h2>Materiais cadastrados</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Produto</th>
+      <th>Quantidade</th>
+      <th>Destino</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {{#each materiais}}
+    <tr>
+      <td>{{produto}}</td>
+      <td>{{quantidade}}</td>
+      <td>{{destino}}</td>
+
+      <!-- 🔥 AQUI é o ponto-chave -->
+      <td class="acoes">
+        <a href="/materiais/editar/{{id}}" class="edit">Editar</a>
+
+        <form action="/materiais/excluir/{{id}}" method="POST">
+          <button type="submit" class="delete">Excluir</button>
+        </form>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
