@@ -116,3 +116,9 @@ Criar um projeto real para portfólio
 📊 Relatórios de movimentação
 📱 Layout responsivo
 🌐 API REST
+
+👨‍💻 Autor
+Giovanni Augusto
+Estudante de Analise de Desenvolvimento de Sistemas | Back-end | Node.js | JavaScript
+
+📌 Projeto desenvolvido com fins educacionais.
