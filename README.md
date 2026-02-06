@@ -1,0 +1,119 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/seu-usuario/controle-de-materiais/main/assets/banner.png" alt="Controle de Materiais" />
+</p>
+
+# 📦 Controle de Materiais
+
+![Node.js](https://img.shields.io/badge/Node.js-green)
+![Express](https://img.shields.io/badge/Express.js-black)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![MVC](https://img.shields.io/badge/Architecture-MVC-blue)
+![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-orange)
+
+Sistema web para **controle de entrada e saída de materiais e ferramentas**, desenvolvido em **Node.js** com **Express**, aplicando **CRUD** e o padrão **MVC**.
+
+---
+
+## 🧠 Sobre o projeto
+
+O **Controle de Materiais** é um sistema simples e funcional que permite gerenciar materiais e ferramentas de forma organizada.
+
+Este projeto foi desenvolvido com foco em **aprendizado prático de back-end**, organização de código e boas práticas com **Node.js**, sendo ideal para demonstração em **portfólio**.
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Cadastro de materiais
+- 📤 Registro de saída de materiais
+- 📋 Listagem de materiais cadastrados
+- ❌ Exclusão de registros
+- 🧩 Arquitetura MVC
+- 🎨 Interface simples com HTML + CSS
+- ⚙️ Rotas HTTP (GET e POST)
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **Node.js**
+- **Express**
+- **Express Handlebars**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
+- **Arquitetura MVC**
+
+---
+
+## 📁 Estrutura do projeto
+
+```bash
+controle-de-materiais/
+│
+├── controllers/
+│   └── MateriaisController.js
+│
+├── models/
+│   └── Materiais.js
+│
+├── routes/
+│   └── materiaisRoutes.js
+│
+├── views/
+│   ├── layouts/
+│   │   └── main.handlebars
+│   ├── home.handlebars
+│   └── formulario.handlebars
+│
+├── public/
+│   └── css/
+│       └── style.css
+│
+├── assets/
+│   └── banner.png
+│
+├── app.js
+├── package.json
+└── README.md
+
+````
+
+▶️ Como executar o projeto
+1️⃣ Clonar o repositório
+
+git clone https://github.com/seu-usuario/controle-de-materiais.git
+
+2️⃣ Entrar na pasta
+
+cd controle-de-materiais
+
+3️⃣ Instalar dependências
+npm install
+Ou com nodemon:
+npm run dev
+
+5️⃣ Acessar no navegador
+http://localhost:3000
+
+
+📸 Screenshots
+![Tela inicial](<img width="1345" height="595" alt="image" src="https://github.com/user-attachments/assets/5db50020-fcfe-4c23-a81b-e67eda477198" />
+)
+![Cadastro de material](<img width="1108" height="420" alt="image" src="https://github.com/user-attachments/assets/9105d1b0-8268-46bd-af9a-a522de6ab78a" />
+)
+
+
+🎯 Objetivos do projeto:
+Consolidar fundamentos de Node.js
+Praticar CRUD
+Aplicar o padrão MVC
+Trabalhar com rotas e controllers
+Criar um projeto real para portfólio
+
+🔮 Melhorias futuras
+🔐 Autenticação de usuários
+🗄️ Integração com banco de dados (MySQL + Sequelize)
+📊 Relatórios de movimentação
+📱 Layout responsivo
+🌐 API REST
