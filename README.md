@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/seu-usuario/controle-de-materiais/main/assets/banner.png" alt="Controle de Materiais" />
-</p>
 
 # 📦 Controle de Materiais
 
